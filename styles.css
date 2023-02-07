@@ -1,0 +1,46 @@
+body{
+  background-image: url(backwindows.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main{
+  margin: auto;
+  width: 350px;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+#fir{
+  width: 225px;
+  height: 700px;
+  background-color: white;
+  border-radius: 15px;
+  opacity: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+#fir > #icon1{
+  alig
+  flex: 0 0 0%;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#fir > #icon2{
+  transform: scaleX(-1);
+}
+
+#sec{
+  margin-left: 25px;
+  width: 100px;
+  height: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  opacity: 90%;
+}
